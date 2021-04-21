@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-dev-course-p1/static/css/main.d0a46cb3.chunk.css",
+    "main.js": "/react-dev-course-p1/static/js/main.3ccc7027.chunk.js",
+    "main.js.map": "/react-dev-course-p1/static/js/main.3ccc7027.chunk.js.map",
+    "runtime-main.js": "/react-dev-course-p1/static/js/runtime-main.a5582fb0.js",
+    "runtime-main.js.map": "/react-dev-course-p1/static/js/runtime-main.a5582fb0.js.map",
+    "static/js/2.3c73dc65.chunk.js": "/react-dev-course-p1/static/js/2.3c73dc65.chunk.js",
+    "static/js/2.3c73dc65.chunk.js.map": "/react-dev-course-p1/static/js/2.3c73dc65.chunk.js.map",
+    "static/js/3.dbc770d9.chunk.js": "/react-dev-course-p1/static/js/3.dbc770d9.chunk.js",
+    "static/js/3.dbc770d9.chunk.js.map": "/react-dev-course-p1/static/js/3.dbc770d9.chunk.js.map",
+    "index.html": "/react-dev-course-p1/index.html",
+    "static/css/main.d0a46cb3.chunk.css.map": "/react-dev-course-p1/static/css/main.d0a46cb3.chunk.css.map",
+    "static/js/2.3c73dc65.chunk.js.LICENSE.txt": "/react-dev-course-p1/static/js/2.3c73dc65.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5582fb0.js",
+    "static/js/2.3c73dc65.chunk.js",
+    "static/css/main.d0a46cb3.chunk.css",
+    "static/js/main.3ccc7027.chunk.js"
+  ]
+}
