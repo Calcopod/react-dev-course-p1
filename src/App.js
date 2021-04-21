@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
+import CardList from './Components/CardList/card_list.jsx'
+
 import './App.css';
 
 class App extends Component {
-    constructor() {
-        super();
+  constructor() {
+    super();
+    this.state = {
+        monsters: [],
+    };
+  }
 
-        this.state = {
-            text: "Hello Andrei!",
-        };
-    }
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then( res => res.json() )
+      .then( users => this.setState({monsters: users}) )
+  }
 
-    render() {
-        return (
-            <div>
-                <h1> {this.state.text} </h1>
-                <button onClick={() => this.setState({text: "Hello Serban!"})}>
-                    Change text 
-                </button>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <CardList monsters={this.state.monsters} />
+      </div>
+    )
+  }
 }
 
 export default App;
